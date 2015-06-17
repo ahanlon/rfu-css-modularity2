@@ -20,3 +20,18 @@
 	vertical-align: top;
 	padding: 0 3%;
 }
+
+
+/* THIS IS #7 VERTICALLY SPACED*/
+
+.container-vert {
+	padding: 25% 0;
+}
+
+
+/* THIS IS #8 HORIZONTAL LIST*/
+
+.horizontal > * {
+	display: inline-block;
+	float: left;	
+}
