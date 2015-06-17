@@ -31,7 +31,96 @@
 
 /* THIS IS #8 HORIZONTAL LIST*/
 
-.horizontal > * {
+.horizontal li {
 	display: inline-block;
 	float: left;	
 }
+
+/*THIS IS #9 BUTTONS*/
+
+
+.buttons a, input {
+	display: inline-block;
+	background-color: pink;
+	color: white;
+	text-decoration: none;	
+	border-radius: 5px;
+	border: none;
+}
+
+.large {
+	padding: 20px 70px;
+}
+
+.medium {
+	padding: 10px 45px;
+}
+
+.small {
+	padding: 3px 5px;
+} 
+
+
+
+
+/*THIS IS #10 NAVIGATION*/
+
+.navigation ul {
+	padding: 0;
+}
+
+.navigation li {
+	display: inline-block;
+	float: left;
+	background-color: pink;
+	padding: 10px 40px;
+}
+
+.navigation li:first-child {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.navigation li:last-child {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.navigation a {
+	color: white;	
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: blue;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
