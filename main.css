@@ -61,8 +61,6 @@
 } 
 
 
-
-
 /*THIS IS #10 NAVIGATION*/
 
 .navigation ul {
@@ -96,7 +94,38 @@
 }
 
 
+/*THIS IS #11 PAGINATION*/
 
+
+.pagination {
+	padding: 0;
+}
+
+.pagination li {
+	display: inline-block;
+	float: left;
+	color: silver;
+	margin: 0 5px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border-bottom: solid pink;
+	overflow: hidden;
+}
+
+.pagination a {
+	color: pink;
+	text-decoration: none;
+	/*border-bottom: solid;*/
+	/*padding: 5px 15px;*/
+}
+
+.pagination .no-line {
+	border-bottom: none;
+}
+
+.pagination .gray-line {
+	border-bottom: solid silver;
+}
 
 
 
