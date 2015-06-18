@@ -162,11 +162,49 @@
 	font-size: 12px;
 }
 
+/*THIS IS #13 TABS*/
 
 
 
+.tabular-button {
+	clear: right;
+	padding-left: 10px;
 
+}
 
+.tabular-button-tab {
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 0 2px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top: solid 1px gray;
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+	background-color: white;
+}
+
+.border {
+	border: solid 1px gray;
+	
+}
+
+.tabular-content {
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.link {
+	text-decoration: none;
+	color: blue;
+}
+
+.active {
+	position: relative;
+	float:none;
+	top:1px;
+
+}
 
 
 
